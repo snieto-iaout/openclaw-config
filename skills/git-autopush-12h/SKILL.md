@@ -15,7 +15,10 @@ description: Auto-commit and push the OpenClaw workspace git repo on a schedule 
 ## Assumptions
 
 - Workspace is a git repo and `origin` is configured.
-- Authentication is handled by the environment (GitHub credential helper, SSH agent, etc.). **Do not store tokens in the repo.**
+- This VPS uses **SSH deploy key** auth for GitHub.
+  - Private key (host-local, NOT in git): `/data/.ssh/openclaw-config-deploy-key`
+  - SSH config: `/data/.ssh/config` should include `IdentityFile /data/.ssh/openclaw-config-deploy-key`
+- **Do not** store PAT tokens in the repo.
 
 ## Run the autopush script
 
@@ -36,3 +39,5 @@ Use OpenClaw Gateway cron to run this every 12 hours in an isolated cron session
 - Schedule: cron expression `0 */12 * * *` with `America/New_York` (adjust if needed)
 - Payload: agent turn that runs the script via `exec`
 - Delivery: `none` (quiet) unless you want notifications
+
+**Note (VPS reality):** if `openclaw cron add` fails with `pairing required`, fix Gateway device auth/pairing first (restart the gateway with the intended auth settings, then retry).
