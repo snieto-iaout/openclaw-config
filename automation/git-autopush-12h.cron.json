@@ -1,0 +1,11 @@
+{
+  "name": "Workspace git autopush (12h)",
+  "schedule": { "kind": "cron", "expr": "0 */12 * * *", "tz": "America/New_York" },
+  "sessionTarget": "isolated",
+  "wakeMode": "now",
+  "payload": {
+    "kind": "agentTurn",
+    "message": "Run: cd /data/.openclaw/workspace && bash skills/git-autopush-12h/scripts/autopush.sh"
+  },
+  "delivery": { "mode": "none", "channel": "last" }
+}
