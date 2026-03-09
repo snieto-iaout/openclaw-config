@@ -1,0 +1,42 @@
+# OpenClaw workspace gitignore (conservative: avoid committing secrets)
+
+# Node / JS
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# OS/editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Logs/temp
+*.log
+*.tmp
+*.swp
+
+# Secrets / credentials (common)
+.env
+.env.*
+*.key
+*.pem
+*.p12
+*.pfx
+*.crt
+*.cer
+*.der
+*.jks
+*.keystore
+
+# OpenClaw / agent runtime state (may include tokens)
+**/secrets/
+**/*token*
+**/*apikey*
+**/*api_key*
+**/*password*
+**/*passwd*
+
+# If you later add gateways/nodes configs here, keep auth out of git.
