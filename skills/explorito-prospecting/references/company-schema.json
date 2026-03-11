@@ -1,0 +1,63 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "ExploritoCompany",
+  "type": "object",
+  "required": ["name", "country", "source"],
+  "properties": {
+    "name": {"type": "string"},
+    "domain": {"type": "string"},
+    "website": {"type": "string"},
+    "linkedin_company_url": {"type": "string"},
+    "source": {
+      "type": "object",
+      "required": ["type", "url"],
+      "properties": {
+        "type": {"type": "string", "enum": ["LinkedIn", "Google", "Directorio", "Noticias"]},
+        "url": {"type": "string"}
+      }
+    },
+    "locations": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "city": {"type": "string"},
+          "region": {"type": "string"},
+          "country": {"type": "string"},
+          "postal_code": {"type": "string"}
+        }
+      }
+    },
+    "country": {"type": "string", "enum": ["Colombia", "Panamá", "Estados Unidos"]},
+    "segment": {"type": "string", "enum": ["Administración PH", "Seguridad Privada", "Constructora", "Unknown"]},
+    "sector": {"type": "string", "enum": ["Real Estate", "Security", "Construction", "Unknown"]},
+    "employees_est": {"type": "integer"},
+    "properties_managed_est": {"type": "integer"},
+    "projects_per_year_est": {"type": "number"},
+    "annual_revenue_est": {"type": "number"},
+    "activity_last_year": {"type": "integer"},
+    "digital_presence": {
+      "type": "object",
+      "properties": {
+        "has_website": {"type": "boolean"},
+        "has_linkedin": {"type": "boolean"},
+        "has_directory_listing": {"type": "boolean"},
+        "has_recent_news": {"type": "boolean"}
+      }
+    },
+    "decision_makers": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "full_name": {"type": "string"},
+          "role": {"type": "string"},
+          "email": {"type": "string"},
+          "linkedin_url": {"type": "string"}
+        }
+      }
+    },
+    "evidence_urls": {"type": "array", "items": {"type": "string"}},
+    "notes": {"type": "string"}
+  }
+}
