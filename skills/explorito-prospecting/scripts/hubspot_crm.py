@@ -98,10 +98,14 @@ def associate(from_type: str, from_id: str, to_type: str, to_id: str) -> Dict[st
 
 
 def _create_note_v3(note_body: str) -> Dict[str, Any]:
+    # Notes require hs_timestamp in many portals.
+    from datetime import datetime, timezone
+
+    ts_ms = int(datetime.now(timezone.utc).timestamp() * 1000)
     return _request(
         "POST",
         "/crm/v3/objects/notes",
-        {"properties": {"hs_note_body": note_body}},
+        {"properties": {"hs_note_body": note_body, "hs_timestamp": ts_ms}},
     )
 
 
@@ -122,19 +126,30 @@ def _create_note_engagements(note_body: str, company_id: Optional[str], contact_
 
 
 def create_note(note_body: str, company_id: Optional[str] = None, contact_id: Optional[str] = None) -> Dict[str, Any]:
-    try:
-        note = _create_note_v3(note_body)
-        note_id = str(note.get("id"))
-        if company_id:
-            associate("notes", note_id, "companies", str(company_id))
-        if contact_id:
-            associate("notes", note_id, "contacts", str(contact_id))
-        return note
-    except HubSpotHTTPError as e:
-        # Fallback when notes object scopes are not available in the app UI.
-        if e.code in (403, 404):
+    # Prefer legacy engagements when we need associations: it works across more portals
+    # and avoids association-type headaches for notes.
+    if company_id or contact_id:
+        try:
             return _create_note_engagements(note_body, company_id, contact_id)
-        raise
+        except HubSpotHTTPError as e:
+            if e.code not in (403, 404):
+                raise
+            # else: fall through to v3 notes
+
+    # v3 notes object (no associations unless portal supports note association types)
+    note = _create_note_v3(note_body)
+    note_id = str(note.get("id"))
+    if company_id:
+        try:
+            associate("notes", note_id, "companies", str(company_id))
+        except HubSpotHTTPError:
+            pass
+    if contact_id:
+        try:
+            associate("notes", note_id, "contacts", str(contact_id))
+        except HubSpotHTTPError:
+            pass
+    return note
 
 
 def _read_json(path: str) -> Dict[str, Any]:

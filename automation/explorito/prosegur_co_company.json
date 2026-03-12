@@ -1,0 +1,27 @@
+{
+  "name": "Prosegur Colombia",
+  "domain": "prosegur.com.co",
+  "website": "https://www.prosegur.com.co",
+  "segment": "Seguridad Privada",
+  "country": "Colombia",
+  "city": "Bogotá",
+  "employees_est": null,
+  "activity_last_year": 2026,
+  "digital_presence": {
+    "has_website": true,
+    "has_linkedin": true,
+    "has_directory_listing": false,
+    "has_recent_news": false
+  },
+  "linkedin_company_url": "https://www.linkedin.com/company/prosegur",
+  "source": {
+    "type": "Google",
+    "url": "https://www.prosegur.com.co"
+  },
+  "evidence": {
+    "website_title": "Prosegur Colombia I Alarmas, Seguridad y Cash",
+    "website_meta_description": "Sistemas de seguridad para tu tranquilidad y bienestar...",
+    "linkedin_link_found_on_site": true
+  },
+  "notes": "Evidencia: el sitio https://www.prosegur.com.co contiene enlace a LinkedIn de la empresa."
+}

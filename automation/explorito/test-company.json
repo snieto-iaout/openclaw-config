@@ -1,0 +1,11 @@
+{
+  "properties": {
+    "name": "Explorito Test - DO NOT CONTACT - 2026-03-11",
+    "domain": "explorito-test-20260311.invalid",
+    "country": "Colombia",
+    "city": "Bogotá",
+    "industry": "REAL_ESTATE",
+    "description": "Registro de prueba creado por Explorito para validar integración HubSpot. DO NOT CONTACT.",
+    "numberofemployees": "10"
+  }
+}

@@ -75,7 +75,9 @@ def cmd_report(args: argparse.Namespace) -> int:
     by_country = Counter()
     by_segment = Counter()
     saved_scores: List[int] = []
-    by_source = Counter()
+    found_by_source = Counter()
+    saved_by_source = Counter()
+    saved_companies: List[Dict[str, Any]] = []
 
     # We treat a "decision" event as the final outcome per company.
     for e in events:
@@ -83,24 +85,55 @@ def cmd_report(args: argparse.Namespace) -> int:
             found += 1
             src = e.get("source_type")
             if src:
-                by_source[src] += 1
+                found_by_source[src] += 1
 
         if e.get("event") == "decision":
             decision = e.get("decision")
+            src = e.get("source_type")
+
             if decision == "saved":
                 saved += 1
+                if src:
+                    saved_by_source[src] += 1
                 if e.get("country"):
                     by_country[e["country"]] += 1
                 if e.get("segment"):
                     by_segment[e["segment"]] += 1
                 if isinstance(e.get("score"), int):
                     saved_scores.append(e["score"])
+
+                saved_companies.append(
+                    {
+                        "name": e.get("name"),
+                        "country": e.get("country"),
+                        "segment": e.get("segment"),
+                        "score": e.get("score"),
+                        "source_type": src,
+                        "hubspot_company_id": e.get("hubspot_company_id"),
+                        "source_url": e.get("source_url"),
+                    }
+                )
+
             elif decision == "discarded":
                 discarded += 1
                 reason = e.get("reason") or "(sin razón)"
                 discard_reasons[reason] += 1
 
     avg_score = round(sum(saved_scores) / len(saved_scores), 2) if saved_scores else None
+
+    # Top 3 by score (ties preserved by stable sort on name)
+    top3 = sorted(
+        [c for c in saved_companies if isinstance(c.get("score"), int)],
+        key=lambda c: (-c["score"], str(c.get("name") or "")),
+    )[:3]
+
+    # Source performance (saved/found)
+    source_performance: List[Dict[str, Any]] = []
+    for src, fcount in found_by_source.items():
+        scount = saved_by_source.get(src, 0)
+        rate = round(scount / fcount, 3) if fcount else 0.0
+        source_performance.append({"source": src, "found": fcount, "saved": scount, "save_rate": rate})
+    source_performance.sort(key=lambda x: (-x["save_rate"], -x["saved"], -x["found"], x["source"]))
 
     report = {
         "session": args.session,
@@ -111,7 +144,8 @@ def cmd_report(args: argparse.Namespace) -> int:
         "distribution_by_country": by_country,
         "distribution_by_segment": by_segment,
         "avg_score_saved": avg_score,
-        "sources_by_count": by_source,
+        "top3_saved": top3,
+        "source_performance": source_performance,
     }
 
     print(json.dumps(report, ensure_ascii=False, indent=2, default=list))
