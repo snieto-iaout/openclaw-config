@@ -1,0 +1,23 @@
+{
+  "name": "Seguridad Urracá",
+  "domain": "seguridadurraca.com",
+  "website": "https://www.seguridadurraca.com/",
+  "segment": "Seguridad Privada",
+  "country": "Panamá",
+  "city": null,
+  "activity_last_year": 2026,
+  "digital_presence": {
+    "has_website": true,
+    "has_linkedin": false,
+    "has_directory_listing": false,
+    "has_recent_news": false
+  },
+  "source": {
+    "type": "Google",
+    "url": "https://www.seguridadurraca.com/"
+  },
+  "evidence_urls": [
+    "https://www.seguridadurraca.com/"
+  ],
+  "notes": "Fuente: https://www.seguridadurraca.com/"
+}

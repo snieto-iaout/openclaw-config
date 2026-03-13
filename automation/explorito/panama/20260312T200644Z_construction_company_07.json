@@ -1,0 +1,24 @@
+{
+  "name": "PROINSA PTY",
+  "domain": "proinsapty.com",
+  "website": "https://www.proinsapty.com/",
+  "segment": "Constructora",
+  "country": "Panamá",
+  "city": null,
+  "projects_per_year_est": 1,
+  "activity_last_year": 2026,
+  "digital_presence": {
+    "has_website": true,
+    "has_linkedin": false,
+    "has_directory_listing": false,
+    "has_recent_news": false
+  },
+  "source": {
+    "type": "Google",
+    "url": "https://www.proinsapty.com/"
+  },
+  "evidence_urls": [
+    "https://www.proinsapty.com/"
+  ],
+  "notes": "Fuente: https://www.proinsapty.com/"
+}

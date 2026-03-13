@@ -1,0 +1,23 @@
+{
+  "name": "ADEMSA",
+  "domain": "ademsa.com.pa",
+  "website": "https://ademsa.com.pa/administracion-de-condominios-en-panama/",
+  "segment": "Administración PH",
+  "country": "Panamá",
+  "city": null,
+  "activity_last_year": 2026,
+  "digital_presence": {
+    "has_website": true,
+    "has_linkedin": false,
+    "has_directory_listing": false,
+    "has_recent_news": false
+  },
+  "source": {
+    "type": "Google",
+    "url": "https://ademsa.com.pa/administracion-de-condominios-en-panama/"
+  },
+  "evidence_urls": [
+    "https://ademsa.com.pa/administracion-de-condominios-en-panama/"
+  ],
+  "notes": "Fuente: https://ademsa.com.pa/administracion-de-condominios-en-panama/"
+}

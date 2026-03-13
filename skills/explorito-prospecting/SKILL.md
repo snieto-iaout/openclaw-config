@@ -13,6 +13,12 @@ description: B2B prospecting SDR workflow for Munily (SaaS de gestión de propie
 
 ## Reglas obligatorias (no negociables)
 
+### Defaults (cuando el usuario NO especifica)
+
+- **Guardar en HubSpot por defecto.** Solo NO guardar si el usuario lo pide explícitamente.
+- **Buscar siempre en los 3 segmentos ICP** (Administración PH, Seguridad Privada, Constructoras), a menos que el usuario especifique un segmento.
+- **Cobertura geográfica por defecto: todo el país.** Si el usuario no especifica ciudad/región, buscar en todas las ciudades del país objetivo (sin limitarse a “ciudades foco”).
+
 - Nunca guardar una empresa sin:
   1) match con **ICP**, 2) **score >= 40**, 3) presencia digital verificable, 4) **deduplicación en HubSpot**.
 - Nunca inventar información. Si un campo no está disponible: dejar vacío o escribir **`Por verificar`**.

@@ -1,0 +1,24 @@
+{
+  "name": "Grupo Corcione",
+  "domain": "grupocorcione.com",
+  "website": "https://www.grupocorcione.com/",
+  "segment": "Constructora",
+  "country": "Panamá",
+  "city": null,
+  "projects_per_year_est": 1,
+  "activity_last_year": 2026,
+  "digital_presence": {
+    "has_website": true,
+    "has_linkedin": false,
+    "has_directory_listing": false,
+    "has_recent_news": false
+  },
+  "source": {
+    "type": "Google",
+    "url": "https://www.grupocorcione.com/"
+  },
+  "evidence_urls": [
+    "https://www.grupocorcione.com/"
+  ],
+  "notes": "Fuente: https://www.grupocorcione.com/"
+}

@@ -1,0 +1,10 @@
+{
+  "properties": {
+    "name": "ADEMSA",
+    "domain": "ademsa.com.pa",
+    "country": "Panamá",
+    "industry": "REAL_ESTATE",
+    "description": "Empresa candidata ICP (Administración PH). Fuente: https://ademsa.com.pa/administracion-de-condominios-en-panama/. Score=40 ({'segment': 25, 'country': 10, 'size': 0, 'source': 5}).",
+    "creado_ia": "true"
+  }
+}

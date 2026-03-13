@@ -167,6 +167,12 @@ def cmd_search(args: argparse.Namespace) -> int:
 def cmd_create_company(args: argparse.Namespace) -> int:
     payload = _read_json(args.json)
     props = payload.get("properties") if "properties" in payload else payload
+
+    # Munily: flag empresas creadas por IA (Explorito)
+    # If the property doesn't exist in the portal, HubSpot will return a validation error.
+    # Single checkbox properties in HubSpot expect "true"/"false" values.
+    props.setdefault("creado_ia", "true")
+
     res = create_company(props)
     json.dump(res, sys.stdout, ensure_ascii=False, indent=2)
     sys.stdout.write("\n")
@@ -176,6 +182,12 @@ def cmd_create_company(args: argparse.Namespace) -> int:
 def cmd_create_contact(args: argparse.Namespace) -> int:
     payload = _read_json(args.json)
     props = payload.get("properties") if "properties" in payload else payload
+
+    # Munily: flag contactos creados por IA (Explorito)
+    # If the property doesn't exist in the portal, HubSpot will return a validation error.
+    # Single checkbox properties in HubSpot expect "true"/"false" values.
+    props.setdefault("creado_ia", "true")
+
     res = create_contact(props)
     json.dump(res, sys.stdout, ensure_ascii=False, indent=2)
     sys.stdout.write("\n")

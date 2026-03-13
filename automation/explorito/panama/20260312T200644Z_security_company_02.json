@@ -1,0 +1,23 @@
+{
+  "name": "Vigilancia Privada USG",
+  "domain": "vigilanciaprivadausg.com",
+  "website": "https://www.vigilanciaprivadausg.com/",
+  "segment": "Seguridad Privada",
+  "country": "Panamá",
+  "city": null,
+  "activity_last_year": 2026,
+  "digital_presence": {
+    "has_website": true,
+    "has_linkedin": false,
+    "has_directory_listing": false,
+    "has_recent_news": false
+  },
+  "source": {
+    "type": "Google",
+    "url": "https://www.vigilanciaprivadausg.com/"
+  },
+  "evidence_urls": [
+    "https://www.vigilanciaprivadausg.com/"
+  ],
+  "notes": "Fuente: https://www.vigilanciaprivadausg.com/"
+}

@@ -1,0 +1,22 @@
+{
+  "name": "Adminity PH",
+  "domain": "adminityph.com",
+  "website": "https://www.adminityph.com/",
+  "segment": "Administración PH",
+  "country": "Panamá",
+  "city": null,
+  "activity_last_year": 2026,
+  "digital_presence": {
+    "has_website": true,
+    "has_linkedin": false,
+    "has_directory_listing": false,
+    "has_recent_news": false
+  },
+  "source": {
+    "type": "Google",
+    "url": "https://www.adminityph.com/"
+  },
+  "evidence_urls": [
+    "https://www.adminityph.com/"
+  ]
+}

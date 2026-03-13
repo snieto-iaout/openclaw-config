@@ -1,0 +1,23 @@
+{
+  "name": "SEPROSA",
+  "domain": "seprosa.com.pa",
+  "website": "https://www.seprosa.com.pa/",
+  "segment": "Seguridad Privada",
+  "country": "Panamá",
+  "city": null,
+  "activity_last_year": 2026,
+  "digital_presence": {
+    "has_website": true,
+    "has_linkedin": false,
+    "has_directory_listing": false,
+    "has_recent_news": false
+  },
+  "source": {
+    "type": "Google",
+    "url": "https://www.seprosa.com.pa/"
+  },
+  "evidence_urls": [
+    "https://www.seprosa.com.pa/"
+  ],
+  "notes": "Fuente: https://www.seprosa.com.pa/"
+}

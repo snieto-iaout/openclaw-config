@@ -1,0 +1,23 @@
+{
+  "name": "K9 Security Panamá",
+  "domain": "securityk9panama.com",
+  "website": "https://www.securityk9panama.com/inicio/",
+  "segment": "Seguridad Privada",
+  "country": "Panamá",
+  "city": null,
+  "activity_last_year": 2026,
+  "digital_presence": {
+    "has_website": true,
+    "has_linkedin": false,
+    "has_directory_listing": false,
+    "has_recent_news": false
+  },
+  "source": {
+    "type": "Google",
+    "url": "https://www.securityk9panama.com/inicio/"
+  },
+  "evidence_urls": [
+    "https://www.securityk9panama.com/inicio/"
+  ],
+  "notes": "Fuente: https://www.securityk9panama.com/inicio/"
+}

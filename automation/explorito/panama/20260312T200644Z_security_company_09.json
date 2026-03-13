@@ -1,0 +1,23 @@
+{
+  "name": "SEVISEP de Panamá",
+  "domain": "sevisepdepanama.com",
+  "website": "https://www.sevisepdepanama.com/nosotros/",
+  "segment": "Seguridad Privada",
+  "country": "Panamá",
+  "city": null,
+  "activity_last_year": 2026,
+  "digital_presence": {
+    "has_website": true,
+    "has_linkedin": false,
+    "has_directory_listing": false,
+    "has_recent_news": false
+  },
+  "source": {
+    "type": "Google",
+    "url": "https://www.sevisepdepanama.com/nosotros/"
+  },
+  "evidence_urls": [
+    "https://www.sevisepdepanama.com/nosotros/"
+  ],
+  "notes": "Fuente: https://www.sevisepdepanama.com/nosotros/"
+}

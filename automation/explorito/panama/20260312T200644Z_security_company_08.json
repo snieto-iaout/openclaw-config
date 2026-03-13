@@ -1,0 +1,23 @@
+{
+  "name": "Block Security Panamá",
+  "domain": "blockpanama.com",
+  "website": "https://blockpanama.com/",
+  "segment": "Seguridad Privada",
+  "country": "Panamá",
+  "city": null,
+  "activity_last_year": 2026,
+  "digital_presence": {
+    "has_website": true,
+    "has_linkedin": false,
+    "has_directory_listing": false,
+    "has_recent_news": false
+  },
+  "source": {
+    "type": "Google",
+    "url": "https://blockpanama.com/"
+  },
+  "evidence_urls": [
+    "https://blockpanama.com/"
+  ],
+  "notes": "Fuente: https://blockpanama.com/"
+}

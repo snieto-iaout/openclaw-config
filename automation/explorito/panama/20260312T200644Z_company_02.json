@@ -1,0 +1,23 @@
+{
+  "name": "H & H Facility Management",
+  "domain": "hhfacilitymanagement.com",
+  "website": "https://www.hhfacilitymanagement.com/administracion-condominios-panama/",
+  "segment": "Administración PH",
+  "country": "Panamá",
+  "city": null,
+  "activity_last_year": 2026,
+  "digital_presence": {
+    "has_website": true,
+    "has_linkedin": false,
+    "has_directory_listing": false,
+    "has_recent_news": false
+  },
+  "source": {
+    "type": "Google",
+    "url": "https://www.hhfacilitymanagement.com/administracion-condominios-panama/"
+  },
+  "evidence_urls": [
+    "https://www.hhfacilitymanagement.com/administracion-condominios-panama/"
+  ],
+  "notes": "Fuente: https://www.hhfacilitymanagement.com/administracion-condominios-panama/"
+}

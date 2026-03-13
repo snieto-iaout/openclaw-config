@@ -1,0 +1,23 @@
+{
+  "name": "Pacific Group Supply (PGS Administradores)",
+  "domain": "pgsadministradores.com",
+  "website": "https://pgsadministradores.com/",
+  "segment": "Administración PH",
+  "country": "Panamá",
+  "city": null,
+  "activity_last_year": 2026,
+  "digital_presence": {
+    "has_website": true,
+    "has_linkedin": false,
+    "has_directory_listing": false,
+    "has_recent_news": false
+  },
+  "source": {
+    "type": "Google",
+    "url": "https://pgsadministradores.com/"
+  },
+  "evidence_urls": [
+    "https://pgsadministradores.com/"
+  ],
+  "notes": "Fuente: https://pgsadministradores.com/"
+}

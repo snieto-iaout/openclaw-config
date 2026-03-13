@@ -1,0 +1,24 @@
+{
+  "name": "Grupo Los Pueblos (GLP)",
+  "domain": "glp.com.pa",
+  "website": "https://glp.com.pa/",
+  "segment": "Constructora",
+  "country": "Panamá",
+  "city": null,
+  "projects_per_year_est": 1,
+  "activity_last_year": 2026,
+  "digital_presence": {
+    "has_website": true,
+    "has_linkedin": false,
+    "has_directory_listing": false,
+    "has_recent_news": false
+  },
+  "source": {
+    "type": "Google",
+    "url": "https://glp.com.pa/"
+  },
+  "evidence_urls": [
+    "https://glp.com.pa/"
+  ],
+  "notes": "Fuente: https://glp.com.pa/"
+}
