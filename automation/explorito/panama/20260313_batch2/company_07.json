@@ -1,0 +1,28 @@
+{
+  "name": "SCSA Seguridad",
+  "domain": "seguridadscsa.com",
+  "website": "https://www.seguridadscsa.com/",
+  "country": "Panamá",
+  "segment": "Seguridad Privada",
+  "sector": "Security",
+  "locations": [
+    {
+      "city": "Ciudad de Panamá",
+      "country": "Panamá"
+    }
+  ],
+  "source": {
+    "type": "Google",
+    "url": "https://www.seguridadscsa.com/"
+  },
+  "digital_presence": {
+    "has_website": true,
+    "has_linkedin": false,
+    "has_directory_listing": false,
+    "has_recent_news": false
+  },
+  "evidence_urls": [
+    "https://www.seguridadscsa.com/"
+  ],
+  "notes": "Prospecto ICP Panamá (Explorito)."
+}

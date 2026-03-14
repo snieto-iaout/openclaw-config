@@ -1,0 +1,29 @@
+{
+  "name": "Grupo Provivienda",
+  "domain": "gprovivienda.com",
+  "website": "https://gprovivienda.com/",
+  "country": "Panamá",
+  "segment": "Constructora",
+  "sector": "Construction",
+  "locations": [
+    {
+      "city": "Panamá Oeste",
+      "country": "Panamá"
+    }
+  ],
+  "source": {
+    "type": "Google",
+    "url": "https://gprovivienda.com/"
+  },
+  "digital_presence": {
+    "has_website": true,
+    "has_linkedin": false,
+    "has_directory_listing": false,
+    "has_recent_news": false
+  },
+  "evidence_urls": [
+    "https://gprovivienda.com/"
+  ],
+  "notes": "Prospecto ICP Panamá (Explorito).",
+  "projects_per_year_est": 4
+}

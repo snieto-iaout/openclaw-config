@@ -1,0 +1,108 @@
+{"event": "identified", "name": "Adminity", "source_type": "Google", "source_url": "https://www.adminityph.com/", "ts": "2026-03-13T12:08:14"}
+{"event": "scored", "name": "Adminity", "score": 60, "qualified": true, "breakdown": {"segment": 25, "country": 10, "size": 20, "source": 5}, "ts": "2026-03-13T12:08:14"}
+{"event": "duplicate_found", "name": "Adminity", "by": "domain", "domain": "adminityph.com", "hubspot_matches": ["14875726609"], "ts": "2026-03-13T12:08:15"}
+{"event": "decision", "decision": "discarded", "name": "Adminity", "reason": "duplicate(domain)", "score": 60, "country": "Panamá", "segment": "Administración PH", "source_type": "Google", "source_url": "https://www.adminityph.com/", "ts": "2026-03-13T12:08:15"}
+{"event": "identified", "name": "Easy Land Panamá", "source_type": "Google", "source_url": "https://www.easylandpanama.com/", "ts": "2026-03-13T12:08:15"}
+{"event": "scored", "name": "Easy Land Panamá", "score": 40, "qualified": true, "breakdown": {"segment": 25, "country": 10, "size": 0, "source": 5}, "ts": "2026-03-13T12:08:15"}
+{"event": "duplicate_found", "name": "Easy Land Panamá", "by": "domain", "domain": "easylandpanama.com", "hubspot_matches": ["2045723158"], "ts": "2026-03-13T12:08:15"}
+{"event": "decision", "decision": "discarded", "name": "Easy Land Panamá", "reason": "duplicate(domain)", "score": 40, "country": "Panamá", "segment": "Administración PH", "source_type": "Google", "source_url": "https://www.easylandpanama.com/", "ts": "2026-03-13T12:08:15"}
+{"event": "identified", "name": "Mardem Administración, S.A.", "source_type": "Google", "source_url": "https://mardemadministracion.com/", "ts": "2026-03-13T12:08:15"}
+{"event": "scored", "name": "Mardem Administración, S.A.", "score": 40, "qualified": true, "breakdown": {"segment": 25, "country": 10, "size": 0, "source": 5}, "ts": "2026-03-13T12:08:16"}
+{"event": "duplicate_found", "name": "Mardem Administración, S.A.", "by": "domain", "domain": "mardemadministracion.com", "hubspot_matches": ["52917224855"], "ts": "2026-03-13T12:08:16"}
+{"event": "decision", "decision": "discarded", "name": "Mardem Administración, S.A.", "reason": "duplicate(domain)", "score": 40, "country": "Panamá", "segment": "Administración PH", "source_type": "Google", "source_url": "https://mardemadministracion.com/", "ts": "2026-03-13T12:08:16"}
+{"event": "identified", "name": "ADEMSA", "source_type": "Google", "source_url": "https://ademsa.com.pa/", "ts": "2026-03-13T12:08:16"}
+{"event": "scored", "name": "ADEMSA", "score": 40, "qualified": true, "breakdown": {"segment": 25, "country": 10, "size": 0, "source": 5}, "ts": "2026-03-13T12:08:16"}
+{"event": "duplicate_found", "name": "ADEMSA", "by": "domain", "domain": "ademsa.com.pa", "hubspot_matches": ["52920632921"], "ts": "2026-03-13T12:08:16"}
+{"event": "decision", "decision": "discarded", "name": "ADEMSA", "reason": "duplicate(domain)", "score": 40, "country": "Panamá", "segment": "Administración PH", "source_type": "Google", "source_url": "https://ademsa.com.pa/", "ts": "2026-03-13T12:08:16"}
+{"event": "identified", "name": "Adminity", "source_type": "Google", "source_url": "https://www.adminityph.com/", "ts": "2026-03-13T12:08:43"}
+{"event": "scored", "name": "Adminity", "score": 60, "qualified": true, "breakdown": {"segment": 25, "country": 10, "size": 20, "source": 5}, "ts": "2026-03-13T12:08:43"}
+{"event": "duplicate_found", "name": "Adminity", "by": "domain", "domain": "adminityph.com", "hubspot_matches": ["14875726609"], "ts": "2026-03-13T12:08:43"}
+{"event": "decision", "decision": "discarded", "name": "Adminity", "reason": "duplicate(domain)", "score": 60, "country": "Panamá", "segment": "Administración PH", "source_type": "Google", "source_url": "https://www.adminityph.com/", "ts": "2026-03-13T12:08:43"}
+{"event": "identified", "name": "Easy Land Panamá", "source_type": "Google", "source_url": "https://www.easylandpanama.com/", "ts": "2026-03-13T12:08:43"}
+{"event": "scored", "name": "Easy Land Panamá", "score": 40, "qualified": true, "breakdown": {"segment": 25, "country": 10, "size": 0, "source": 5}, "ts": "2026-03-13T12:08:43"}
+{"event": "duplicate_found", "name": "Easy Land Panamá", "by": "domain", "domain": "easylandpanama.com", "hubspot_matches": ["2045723158"], "ts": "2026-03-13T12:08:43"}
+{"event": "decision", "decision": "discarded", "name": "Easy Land Panamá", "reason": "duplicate(domain)", "score": 40, "country": "Panamá", "segment": "Administración PH", "source_type": "Google", "source_url": "https://www.easylandpanama.com/", "ts": "2026-03-13T12:08:43"}
+{"event": "identified", "name": "Mardem Administracion, S.A.", "source_type": "Google", "source_url": "https://mardemadministracion.com/", "ts": "2026-03-13T12:08:43"}
+{"event": "scored", "name": "Mardem Administracion, S.A.", "score": 40, "qualified": true, "breakdown": {"segment": 25, "country": 10, "size": 0, "source": 5}, "ts": "2026-03-13T12:08:44"}
+{"event": "duplicate_found", "name": "Mardem Administracion, S.A.", "by": "domain", "domain": "mardemadministracion.com", "hubspot_matches": ["52917224855"], "ts": "2026-03-13T12:08:44"}
+{"event": "decision", "decision": "discarded", "name": "Mardem Administracion, S.A.", "reason": "duplicate(domain)", "score": 40, "country": "Panamá", "segment": "Administración PH", "source_type": "Google", "source_url": "https://mardemadministracion.com/", "ts": "2026-03-13T12:08:44"}
+{"event": "identified", "name": "ADEMSA", "source_type": "Google", "source_url": "https://ademsa.com.pa/", "ts": "2026-03-13T12:08:44"}
+{"event": "scored", "name": "ADEMSA", "score": 40, "qualified": true, "breakdown": {"segment": 25, "country": 10, "size": 0, "source": 5}, "ts": "2026-03-13T12:08:44"}
+{"event": "duplicate_found", "name": "ADEMSA", "by": "domain", "domain": "ademsa.com.pa", "hubspot_matches": ["52920632921"], "ts": "2026-03-13T12:08:44"}
+{"event": "decision", "decision": "discarded", "name": "ADEMSA", "reason": "duplicate(domain)", "score": 40, "country": "Panamá", "segment": "Administración PH", "source_type": "Google", "source_url": "https://ademsa.com.pa/", "ts": "2026-03-13T12:08:44"}
+{"event": "identified", "name": "Administradora Oak's", "source_type": "Google", "source_url": "https://www.administradoraoaks.com/", "ts": "2026-03-13T12:08:44"}
+{"event": "scored", "name": "Administradora Oak's", "score": 40, "qualified": true, "breakdown": {"segment": 25, "country": 10, "size": 0, "source": 5}, "ts": "2026-03-13T12:08:44"}
+{"event": "duplicate_found", "name": "Administradora Oak's", "by": "domain", "domain": "administradoraoaks.com", "hubspot_matches": ["4713771147"], "ts": "2026-03-13T12:08:45"}
+{"event": "decision", "decision": "discarded", "name": "Administradora Oak's", "reason": "duplicate(domain)", "score": 40, "country": "Panamá", "segment": "Administración PH", "source_type": "Google", "source_url": "https://www.administradoraoaks.com/", "ts": "2026-03-13T12:08:45"}
+{"event": "identified", "name": "SEPROSA | Seguridad Permanente y Protección S.A.", "source_type": "Google", "source_url": "https://www.seprosa.com.pa/", "ts": "2026-03-13T12:08:45"}
+{"event": "scored", "name": "SEPROSA | Seguridad Permanente y Protección S.A.", "score": 40, "qualified": true, "breakdown": {"segment": 25, "country": 10, "size": 0, "source": 5}, "ts": "2026-03-13T12:08:45"}
+{"event": "duplicate_found", "name": "SEPROSA | Seguridad Permanente y Protección S.A.", "by": "domain", "domain": "seprosa.com.pa", "hubspot_matches": ["4825271553"], "ts": "2026-03-13T12:08:45"}
+{"event": "decision", "decision": "discarded", "name": "SEPROSA | Seguridad Permanente y Protección S.A.", "reason": "duplicate(domain)", "score": 40, "country": "Panamá", "segment": "Seguridad Privada", "source_type": "Google", "source_url": "https://www.seprosa.com.pa/", "ts": "2026-03-13T12:08:45"}
+{"event": "identified", "name": "ONCOR Panama Security Group, S.A.", "source_type": "Google", "source_url": "http://oncor.com.pa/vigilancia-y-seguridad-privada-en-panama/", "ts": "2026-03-13T12:08:45"}
+{"event": "scored", "name": "ONCOR Panama Security Group, S.A.", "score": 40, "qualified": true, "breakdown": {"segment": 25, "country": 10, "size": 0, "source": 5}, "ts": "2026-03-13T12:08:45"}
+{"event": "duplicate_found", "name": "ONCOR Panama Security Group, S.A.", "by": "domain", "domain": "oncor.com.pa", "hubspot_matches": ["4619525946"], "ts": "2026-03-13T12:08:46"}
+{"event": "decision", "decision": "discarded", "name": "ONCOR Panama Security Group, S.A.", "reason": "duplicate(domain)", "score": 40, "country": "Panamá", "segment": "Seguridad Privada", "source_type": "Google", "source_url": "http://oncor.com.pa/vigilancia-y-seguridad-privada-en-panama/", "ts": "2026-03-13T12:08:46"}
+{"event": "identified", "name": "Vigilancia Especial, S.A.", "source_type": "Google", "source_url": "https://www.gvespecial.com/", "ts": "2026-03-13T12:08:46"}
+{"event": "scored", "name": "Vigilancia Especial, S.A.", "score": 40, "qualified": true, "breakdown": {"segment": 25, "country": 10, "size": 0, "source": 5}, "ts": "2026-03-13T12:08:46"}
+{"event": "duplicate_found", "name": "Vigilancia Especial, S.A.", "by": "domain", "domain": "gvespecial.com", "hubspot_matches": ["4624624608"], "ts": "2026-03-13T12:08:46"}
+{"event": "decision", "decision": "discarded", "name": "Vigilancia Especial, S.A.", "reason": "duplicate(domain)", "score": 40, "country": "Panamá", "segment": "Seguridad Privada", "source_type": "Google", "source_url": "https://www.gvespecial.com/", "ts": "2026-03-13T12:08:46"}
+{"event": "identified", "name": "CORCONSEG | Corporación Consolidada de Seguridad, S.A.", "source_type": "Google", "source_url": "https://corconseg.com/", "ts": "2026-03-13T12:08:46"}
+{"event": "scored", "name": "CORCONSEG | Corporación Consolidada de Seguridad, S.A.", "score": 40, "qualified": true, "breakdown": {"segment": 25, "country": 10, "size": 0, "source": 5}, "ts": "2026-03-13T12:08:47"}
+{"event": "duplicate_found", "name": "CORCONSEG | Corporación Consolidada de Seguridad, S.A.", "by": "domain", "domain": "corconseg.com", "hubspot_matches": ["52912607666"], "ts": "2026-03-13T12:08:47"}
+{"event": "decision", "decision": "discarded", "name": "CORCONSEG | Corporación Consolidada de Seguridad, S.A.", "reason": "duplicate(domain)", "score": 40, "country": "Panamá", "segment": "Seguridad Privada", "source_type": "Google", "source_url": "https://corconseg.com/", "ts": "2026-03-13T12:08:47"}
+{"event": "identified", "name": "Seguridad Comercial, S.A.", "source_type": "Google", "source_url": "https://www.seguridadcomercialsa.com/", "ts": "2026-03-13T12:08:47"}
+{"event": "scored", "name": "Seguridad Comercial, S.A.", "score": 40, "qualified": true, "breakdown": {"segment": 25, "country": 10, "size": 0, "source": 5}, "ts": "2026-03-13T12:08:47"}
+{"event": "decision", "decision": "saved", "name": "Seguridad Comercial, S.A.", "score": 40, "country": "Panamá", "segment": "Seguridad Privada", "source_type": "Google", "source_url": "https://www.seguridadcomercialsa.com/", "hubspot_company_id": "52961293897", "ts": "2026-03-13T12:08:48"}
+{"event": "identified", "name": "Panama Profit, S.A.", "source_type": "Google", "source_url": "https://panaprofit1.com/", "ts": "2026-03-13T12:09:40"}
+{"event": "scored", "name": "Panama Profit, S.A.", "score": 40, "qualified": true, "breakdown": {"segment": 25, "country": 10, "size": 0, "source": 5}, "ts": "2026-03-13T12:09:40"}
+{"event": "duplicate_found", "name": "Panama Profit, S.A.", "by": "domain", "domain": "panaprofit1.com", "hubspot_matches": ["3431749688"], "ts": "2026-03-13T12:09:41"}
+{"event": "decision", "decision": "discarded", "name": "Panama Profit, S.A.", "reason": "duplicate(domain)", "score": 40, "country": "Panamá", "segment": "Administración PH", "source_type": "Google", "source_url": "https://panaprofit1.com/", "ts": "2026-03-13T12:09:41"}
+{"event": "identified", "name": "TQM Panamá", "source_type": "Google", "source_url": "https://www.tqmpanama.com", "ts": "2026-03-13T12:09:41"}
+{"event": "scored", "name": "TQM Panamá", "score": 40, "qualified": true, "breakdown": {"segment": 25, "country": 10, "size": 0, "source": 5}, "ts": "2026-03-13T12:09:41"}
+{"event": "duplicate_found", "name": "TQM Panamá", "by": "domain", "domain": "tqmpanama.com", "hubspot_matches": ["1866046697"], "ts": "2026-03-13T12:09:41"}
+{"event": "decision", "decision": "discarded", "name": "TQM Panamá", "reason": "duplicate(domain)", "score": 40, "country": "Panamá", "segment": "Administración PH", "source_type": "Google", "source_url": "https://www.tqmpanama.com", "ts": "2026-03-13T12:09:41"}
+{"event": "identified", "name": "PH Administrator & Services (PHAdmiServi)", "source_type": "Google", "source_url": "https://www.phadmiservi.com/", "ts": "2026-03-13T12:09:41"}
+{"event": "scored", "name": "PH Administrator & Services (PHAdmiServi)", "score": 40, "qualified": true, "breakdown": {"segment": 25, "country": 10, "size": 0, "source": 5}, "ts": "2026-03-13T12:09:41"}
+{"event": "duplicate_found", "name": "PH Administrator & Services (PHAdmiServi)", "by": "domain", "domain": "phadmiservi.com", "hubspot_matches": ["5245677749"], "ts": "2026-03-13T12:09:41"}
+{"event": "decision", "decision": "discarded", "name": "PH Administrator & Services (PHAdmiServi)", "reason": "duplicate(domain)", "score": 40, "country": "Panamá", "segment": "Administración PH", "source_type": "Google", "source_url": "https://www.phadmiservi.com/", "ts": "2026-03-13T12:09:41"}
+{"event": "identified", "name": "H & H Facility Management", "source_type": "Google", "source_url": "https://www.hhfacilitymanagement.com/", "ts": "2026-03-13T12:09:41"}
+{"event": "scored", "name": "H & H Facility Management", "score": 40, "qualified": true, "breakdown": {"segment": 25, "country": 10, "size": 0, "source": 5}, "ts": "2026-03-13T12:09:41"}
+{"event": "duplicate_found", "name": "H & H Facility Management", "by": "domain", "domain": "hhfacilitymanagement.com", "hubspot_matches": ["1964313819"], "ts": "2026-03-13T12:09:42"}
+{"event": "decision", "decision": "discarded", "name": "H & H Facility Management", "reason": "duplicate(domain)", "score": 40, "country": "Panamá", "segment": "Administración PH", "source_type": "Google", "source_url": "https://www.hhfacilitymanagement.com/", "ts": "2026-03-13T12:09:42"}
+{"event": "identified", "name": "Administra PTY", "source_type": "Google", "source_url": "https://administrapty.com/", "ts": "2026-03-13T12:09:42"}
+{"event": "scored", "name": "Administra PTY", "score": 40, "qualified": true, "breakdown": {"segment": 25, "country": 10, "size": 0, "source": 5}, "ts": "2026-03-13T12:09:42"}
+{"event": "duplicate_found", "name": "Administra PTY", "by": "domain", "domain": "administrapty.com", "hubspot_matches": ["2649458343"], "ts": "2026-03-13T12:09:42"}
+{"event": "decision", "decision": "discarded", "name": "Administra PTY", "reason": "duplicate(domain)", "score": 40, "country": "Panamá", "segment": "Administración PH", "source_type": "Google", "source_url": "https://administrapty.com/", "ts": "2026-03-13T12:09:42"}
+{"event": "identified", "name": "CORPASEG", "source_type": "Google", "source_url": "http://www.corpaseg.com/", "ts": "2026-03-13T12:09:42"}
+{"event": "scored", "name": "CORPASEG", "score": 40, "qualified": true, "breakdown": {"segment": 25, "country": 10, "size": 0, "source": 5}, "ts": "2026-03-13T12:09:42"}
+{"event": "decision", "decision": "saved", "name": "CORPASEG", "score": 40, "country": "Panamá", "segment": "Seguridad Privada", "source_type": "Google", "source_url": "http://www.corpaseg.com/", "hubspot_company_id": "52955835930", "ts": "2026-03-13T12:09:43"}
+{"event": "identified", "name": "SCSA Seguridad", "source_type": "Google", "source_url": "https://www.seguridadscsa.com/", "ts": "2026-03-13T12:09:43"}
+{"event": "scored", "name": "SCSA Seguridad", "score": 40, "qualified": true, "breakdown": {"segment": 25, "country": 10, "size": 0, "source": 5}, "ts": "2026-03-13T12:09:43"}
+{"event": "duplicate_found", "name": "SCSA Seguridad", "by": "domain", "domain": "seguridadscsa.com", "hubspot_matches": ["52936694963"], "ts": "2026-03-13T12:09:44"}
+{"event": "decision", "decision": "discarded", "name": "SCSA Seguridad", "reason": "duplicate(domain)", "score": 40, "country": "Panamá", "segment": "Seguridad Privada", "source_type": "Google", "source_url": "https://www.seguridadscsa.com/", "ts": "2026-03-13T12:09:44"}
+{"event": "identified", "name": "Empresas Bern", "source_type": "Google", "source_url": "https://www.empresasbern.com/", "ts": "2026-03-13T12:09:44"}
+{"event": "scored", "name": "Empresas Bern", "score": 40, "qualified": true, "breakdown": {"segment": 20, "country": 10, "size": 5, "source": 5}, "ts": "2026-03-13T12:09:44"}
+{"event": "duplicate_found", "name": "Empresas Bern", "by": "domain", "domain": "empresasbern.com", "hubspot_matches": ["2033312590"], "ts": "2026-03-13T12:09:44"}
+{"event": "decision", "decision": "discarded", "name": "Empresas Bern", "reason": "duplicate(domain)", "score": 40, "country": "Panamá", "segment": "Constructora", "source_type": "Google", "source_url": "https://www.empresasbern.com/", "ts": "2026-03-13T12:09:44"}
+{"event": "identified", "name": "CODSA", "source_type": "Google", "source_url": "https://codsa.com.pa/", "ts": "2026-03-13T12:09:44"}
+{"event": "scored", "name": "CODSA", "score": 40, "qualified": true, "breakdown": {"segment": 20, "country": 10, "size": 5, "source": 5}, "ts": "2026-03-13T12:09:44"}
+{"event": "decision", "decision": "saved", "name": "CODSA", "score": 40, "country": "Panamá", "segment": "Constructora", "source_type": "Google", "source_url": "https://codsa.com.pa/", "hubspot_company_id": "52953087311", "ts": "2026-03-13T12:09:45"}
+{"event": "identified", "name": "Grupo Provivienda", "source_type": "Google", "source_url": "https://gprovivienda.com/", "ts": "2026-03-13T12:09:45"}
+{"event": "scored", "name": "Grupo Provivienda", "score": 45, "qualified": true, "breakdown": {"segment": 20, "country": 10, "size": 10, "source": 5}, "ts": "2026-03-13T12:09:45"}
+{"event": "duplicate_found", "name": "Grupo Provivienda", "by": "domain", "domain": "gprovivienda.com", "hubspot_matches": ["3122753471"], "ts": "2026-03-13T12:09:45"}
+{"event": "decision", "decision": "discarded", "name": "Grupo Provivienda", "reason": "duplicate(domain)", "score": 45, "country": "Panamá", "segment": "Constructora", "source_type": "Google", "source_url": "https://gprovivienda.com/", "ts": "2026-03-13T12:09:45"}
+{"event": "identified", "name": "Prodeo Panamá", "source_type": "Google", "source_url": "https://www.prodeopanama.com/", "ts": "2026-03-13T12:09:45"}
+{"event": "scored", "name": "Prodeo Panamá", "score": 40, "qualified": true, "breakdown": {"segment": 20, "country": 10, "size": 5, "source": 5}, "ts": "2026-03-13T12:09:45"}
+{"event": "duplicate_found", "name": "Prodeo Panamá", "by": "domain", "domain": "prodeopanama.com", "hubspot_matches": ["52933946676"], "ts": "2026-03-13T12:09:46"}
+{"event": "decision", "decision": "discarded", "name": "Prodeo Panamá", "reason": "duplicate(domain)", "score": 40, "country": "Panamá", "segment": "Constructora", "source_type": "Google", "source_url": "https://www.prodeopanama.com/", "ts": "2026-03-13T12:09:46"}
+{"event": "identified", "name": "APROCOSA (Administradora de Proyectos de Construcción, S.A.)", "source_type": "Google", "source_url": "https://aprocosa.com/", "ts": "2026-03-13T12:09:46"}
+{"event": "scored", "name": "APROCOSA (Administradora de Proyectos de Construcción, S.A.)", "score": 40, "qualified": true, "breakdown": {"segment": 20, "country": 10, "size": 5, "source": 5}, "ts": "2026-03-13T12:09:46"}
+{"event": "decision", "decision": "saved", "name": "APROCOSA (Administradora de Proyectos de Construcción, S.A.)", "score": 40, "country": "Panamá", "segment": "Constructora", "source_type": "Google", "source_url": "https://aprocosa.com/", "hubspot_company_id": "52955990138", "ts": "2026-03-13T12:09:47"}
+{"event": "identified", "name": "Constructora Edificar", "source_type": "Google", "source_url": "https://constructoraedificar.com/es/portafolio/proyectos-panama/", "ts": "2026-03-13T12:09:47"}
+{"event": "scored", "name": "Constructora Edificar", "score": 40, "qualified": true, "breakdown": {"segment": 20, "country": 10, "size": 5, "source": 5}, "ts": "2026-03-13T12:09:47"}
+{"event": "duplicate_found", "name": "Constructora Edificar", "by": "domain", "domain": "constructoraedificar.com", "hubspot_matches": ["52917524504"], "ts": "2026-03-13T12:09:47"}
+{"event": "decision", "decision": "discarded", "name": "Constructora Edificar", "reason": "duplicate(domain)", "score": 40, "country": "Panamá", "segment": "Constructora", "source_type": "Google", "source_url": "https://constructoraedificar.com/es/portafolio/proyectos-panama/", "ts": "2026-03-13T12:09:47"}
+{"event": "identified", "name": "PROYECTA", "source_type": "Google", "source_url": "https://www.proyecta.com.pa/", "ts": "2026-03-13T12:09:47"}
+{"event": "scored", "name": "PROYECTA", "score": 40, "qualified": true, "breakdown": {"segment": 20, "country": 10, "size": 5, "source": 5}, "ts": "2026-03-13T12:09:47"}
+{"event": "duplicate_found", "name": "PROYECTA", "by": "domain", "domain": "proyecta.com.pa", "hubspot_matches": ["5932707684"], "ts": "2026-03-13T12:09:48"}
+{"event": "decision", "decision": "discarded", "name": "PROYECTA", "reason": "duplicate(domain)", "score": 40, "country": "Panamá", "segment": "Constructora", "source_type": "Google", "source_url": "https://www.proyecta.com.pa/", "ts": "2026-03-13T12:09:48"}

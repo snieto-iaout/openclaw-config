@@ -1,0 +1,28 @@
+{
+  "name": "SEPROSA | Seguridad Permanente y Protección S.A.",
+  "domain": "seprosa.com.pa",
+  "website": "https://www.seprosa.com.pa/",
+  "country": "Panamá",
+  "segment": "Seguridad Privada",
+  "sector": "Security",
+  "locations": [
+    {
+      "city": "Ciudad de Panamá",
+      "country": "Panamá"
+    }
+  ],
+  "source": {
+    "type": "Google",
+    "url": "https://www.seprosa.com.pa/"
+  },
+  "digital_presence": {
+    "has_website": true,
+    "has_linkedin": false,
+    "has_directory_listing": false,
+    "has_recent_news": false
+  },
+  "evidence_urls": [
+    "https://www.seprosa.com.pa/"
+  ],
+  "notes": "Prospecto ICP Panamá (Explorito)."
+}

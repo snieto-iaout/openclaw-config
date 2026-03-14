@@ -1,0 +1,28 @@
+{
+  "name": "Administra PTY",
+  "domain": "administrapty.com",
+  "website": "https://administrapty.com/",
+  "country": "Panamá",
+  "segment": "Administración PH",
+  "sector": "Real Estate",
+  "locations": [
+    {
+      "city": "Ciudad de Panamá",
+      "country": "Panamá"
+    }
+  ],
+  "source": {
+    "type": "Google",
+    "url": "https://administrapty.com/"
+  },
+  "digital_presence": {
+    "has_website": true,
+    "has_linkedin": false,
+    "has_directory_listing": false,
+    "has_recent_news": false
+  },
+  "evidence_urls": [
+    "https://administrapty.com/"
+  ],
+  "notes": "Prospecto ICP Panamá (Explorito)."
+}

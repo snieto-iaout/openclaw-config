@@ -1,0 +1,28 @@
+{
+  "name": "Panama Profit, S.A.",
+  "domain": "panaprofit1.com",
+  "website": "https://panaprofit1.com/",
+  "country": "Panamá",
+  "segment": "Administración PH",
+  "sector": "Real Estate",
+  "locations": [
+    {
+      "city": "Ciudad de Panamá",
+      "country": "Panamá"
+    }
+  ],
+  "source": {
+    "type": "Google",
+    "url": "https://panaprofit1.com/"
+  },
+  "digital_presence": {
+    "has_website": true,
+    "has_linkedin": false,
+    "has_directory_listing": false,
+    "has_recent_news": false
+  },
+  "evidence_urls": [
+    "https://panaprofit1.com/"
+  ],
+  "notes": "Prospecto ICP Panamá (Explorito)."
+}

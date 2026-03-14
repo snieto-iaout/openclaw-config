@@ -1,0 +1,29 @@
+{
+  "name": "Prodeo Panamá",
+  "domain": "prodeopanama.com",
+  "website": "https://www.prodeopanama.com/",
+  "country": "Panamá",
+  "segment": "Constructora",
+  "sector": "Construction",
+  "locations": [
+    {
+      "city": "Ciudad de Panamá",
+      "country": "Panamá"
+    }
+  ],
+  "source": {
+    "type": "Google",
+    "url": "https://www.prodeopanama.com/"
+  },
+  "digital_presence": {
+    "has_website": true,
+    "has_linkedin": false,
+    "has_directory_listing": false,
+    "has_recent_news": false
+  },
+  "evidence_urls": [
+    "https://www.prodeopanama.com/"
+  ],
+  "notes": "Prospecto ICP Panamá (Explorito).",
+  "projects_per_year_est": 2
+}

@@ -1,0 +1,28 @@
+{
+  "name": "ONCOR Panama Security Group, S.A.",
+  "domain": "oncor.com.pa",
+  "website": "http://oncor.com.pa/vigilancia-y-seguridad-privada-en-panama/",
+  "country": "Panamá",
+  "segment": "Seguridad Privada",
+  "sector": "Security",
+  "locations": [
+    {
+      "city": "Ciudad de Panamá",
+      "country": "Panamá"
+    }
+  ],
+  "source": {
+    "type": "Google",
+    "url": "http://oncor.com.pa/vigilancia-y-seguridad-privada-en-panama/"
+  },
+  "digital_presence": {
+    "has_website": true,
+    "has_linkedin": false,
+    "has_directory_listing": false,
+    "has_recent_news": false
+  },
+  "evidence_urls": [
+    "http://oncor.com.pa/vigilancia-y-seguridad-privada-en-panama/"
+  ],
+  "notes": "Prospecto ICP Panamá (Explorito)."
+}
